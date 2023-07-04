@@ -185,7 +185,7 @@ public class CustomArrayList<E extends Comparable> implements CustomList<E> {
     }
 
     public void sort() {
-        quickSort( elements, 0, size - 1);
+        quickSort(elements, 0, size - 1);
     }
 
 
